@@ -1,0 +1,175 @@
+.frame-child,
+.header-child {
+  position: absolute;
+  background-color: var(--color-white);
+}
+.frame-child {
+  top: 151px;
+  left: 64px;
+  border-radius: var(--br-11xl);
+  box-shadow: 0 4px 7.8px rgba(0, 0, 0, 0.25);
+  width: 1250px;
+  height: 550px;
+}
+.header-child {
+  top: 0;
+  left: 0;
+  box-shadow: 0 7px 5.6px rgba(0, 0, 0, 0.25);
+  width: 1366px;
+  height: 102px;
+}
+.folio {
+  color: var(--color-saddlebrown-100);
+}
+.portofolio {
+  position: absolute;
+  top: 14px;
+  left: 39.1px;
+  font-size: var(--font-size-29xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  display: flex;
+  width: 403px;
+  height: 71.2px;
+}
+.about,
+.home,
+.login,
+.membership {
+  position: absolute;
+  top: 43px;
+  left: 1161px;
+  font-weight: 300;
+  display: inline-block;
+  width: 48.4px;
+  height: 11.6px;
+}
+.about,
+.login,
+.membership {
+  left: 1246px;
+  width: 55px;
+  height: 15.5px;
+}
+.login,
+.membership {
+  left: 1072px;
+}
+.membership {
+  left: 931px;
+  width: 101px;
+  height: 15px;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1366px;
+  height: 102px;
+  font-size: var(--font-size-base);
+}
+.waterfall {
+  position: absolute;
+  top: 225px;
+  left: 797px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-poppins);
+}
+.lorem-ipsum-dolor {
+  position: absolute;
+  top: 316px;
+  left: 614px;
+  font-weight: 300;
+  display: inline-block;
+  width: 558px;
+  height: 120px;
+}
+.frame-item {
+  position: absolute;
+  top: 573px;
+  left: 783px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-seagreen);
+  width: 220px;
+  height: 55px;
+}
+.rp20000 {
+  position: absolute;
+  top: 464px;
+  left: 614px;
+  font-size: var(--font-size-17xl);
+  font-weight: 900;
+  color: var(--color-saddlebrown-200);
+  text-align: center;
+  display: inline-block;
+  width: 181px;
+  height: 36px;
+}
+.buy-now,
+.buy-now-wrapper {
+  position: absolute;
+  width: 140px;
+  height: 30px;
+}
+.buy-now {
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.buy-now-wrapper {
+  top: 586px;
+  left: 823px;
+  text-align: center;
+  color: var(--color-white);
+}
+.chevron-right-fill0-wght400-gr-icon,
+.chevron-right-fill0-wght400-gr-icon1 {
+  position: absolute;
+  top: 402px;
+  left: 1325px;
+  border-radius: var(--br-71xl);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.chevron-right-fill0-wght400-gr-icon1 {
+  top: 401px;
+  left: 17px;
+}
+.img3-1-icon {
+  position: absolute;
+  top: 170px;
+  left: 173px;
+  border-radius: var(--br-smi);
+  width: 308.2px;
+  height: 500px;
+  object-fit: cover;
+}
+.rectangle-parent {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 768px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.buy-now-wrapper:hover {
+  color: #000; /* Change this to whatever color you want */
+}
+.header a {
+  padding: 0px;
+  font-weight: 500;
+  background-color: white;
+  border: 0;
+  text-decoration: none; /* Menghilangkan underline */
+  font-size: large;
+  color: rgb(114, 111, 111);
+}
+
+.header a:hover {
+  color: #000000; /* Choose your hover background color */
+}

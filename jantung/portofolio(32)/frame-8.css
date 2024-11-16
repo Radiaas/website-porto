@@ -1,0 +1,176 @@
+.frame-child13,
+.header-child7 {
+  position: absolute;
+  background-color: var(--color-white);
+}
+.frame-child13 {
+  top: 151px;
+  left: 64px;
+  border-radius: var(--br-11xl);
+  box-shadow: 0 4px 7.8px rgba(0, 0, 0, 0.25);
+  width: 1250px;
+  height: 550px;
+}
+.header-child7 {
+  top: 0;
+  left: 0;
+  box-shadow: 0 7px 5.6px rgba(0, 0, 0, 0.25);
+  width: 1366px;
+  height: 102px;
+}
+.folio12 {
+  color: var(--color-saddlebrown-100);
+}
+.portofolio19 {
+  position: absolute;
+  top: 14px;
+  left: 39.1px;
+  font-size: var(--font-size-29xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  display: flex;
+  width: 403px;
+  height: 71.2px;
+}
+.about16,
+.home10,
+.login14,
+.membership10 {
+  position: absolute;
+  top: 43px;
+  left: 1161px;
+  font-weight: 300;
+  display: inline-block;
+  width: 48.4px;
+  height: 11.6px;
+}
+.about16,
+.login14,
+.membership10 {
+  left: 1246px;
+  width: 55px;
+  height: 15.5px;
+}
+.login14,
+.membership10 {
+  left: 1072px;
+}
+.membership10 {
+  left: 931px;
+  width: 101px;
+  height: 15px;
+}
+.header9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1366px;
+  height: 102px;
+  font-size: var(--font-size-base);
+}
+.omelette3 {
+  position: absolute;
+  top: 225px;
+  left: 866px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-poppins);
+}
+.lorem-ipsum-dolor9 {
+  position: absolute;
+  top: 316px;
+  left: 683px;
+  font-weight: 300;
+  display: inline-block;
+  width: 558px;
+  height: 120px;
+}
+.frame-child14 {
+  position: absolute;
+  top: 573px;
+  left: 852px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-seagreen);
+  width: 220px;
+  height: 55px;
+}
+.rp200003 {
+  position: absolute;
+  top: 464px;
+  left: 683px;
+  font-size: var(--font-size-17xl);
+  font-weight: 900;
+  color: var(--color-saddlebrown-200);
+  text-align: center;
+  display: inline-block;
+  width: 181px;
+  height: 36px;
+}
+.buy-now-wrapper1,
+.buy-now6 {
+  position: absolute;
+  width: 104px;
+  height: 30px;
+}
+.buy-now6 {
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.buy-now-wrapper1 {
+  top: 586px;
+  left: 910px;
+  text-align: center;
+  color: var(--color-white);
+}
+.chevron-right-fill0-wght400-gr-icon7,
+.chevron-right-fill0-wght400-gr-icon8 {
+  position: absolute;
+  top: 402px;
+  left: 1325px;
+  border-radius: var(--br-71xl);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.chevron-right-fill0-wght400-gr-icon8 {
+  top: 401px;
+  left: 17px;
+}
+.image-omelette-1-icon3 {
+  position: absolute;
+  top: 211px;
+  left: 137px;
+  border-radius: var(--br-11xl);
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+}
+.rectangle-parent34 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 768px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.buy-now-wrapper1:hover .buy-now6 {
+  color: #000;
+}
+.home10, .about16, .login14, .membership10 {
+  padding: 0px;
+  font-weight: 500;
+  background-color: white;
+  border: 0;
+  text-decoration: none; /* Menghilangkan underline */
+  font-size: large;
+  color: rgb(114, 111, 111);
+}
+
+/* CSS untuk efek hover */
+.home10:hover, .about16:hover, .login14:hover, .membership10:hover {
+  color: #000000; /* Choose your hover background color */
+}

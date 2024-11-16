@@ -1,0 +1,145 @@
+/* Reset Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 1200px; /* Batas responsif */
+}
+
+/* Flexbox Utilities */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* Global Styling */
+.container {
+  padding: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+/* Header */
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #903d3d;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: #72716f;
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.header nav a:hover {
+  color: #000;
+}
+
+/* Main Section */
+.main {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.main h1 {
+  font-size: 3rem;
+  color: #903d3d;
+  margin-bottom: 1rem;
+}
+
+.main p {
+  font-size: 1.25rem;
+  color: #72716f;
+  margin-bottom: 2rem;
+}
+
+.main .features {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.main .features li {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+/* Form */
+.form-container {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 500px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-container button {
+  background-color: #903d3d;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.form-container button:hover {
+  background-color: #722e2e;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  font-size: 0.875rem;
+}
